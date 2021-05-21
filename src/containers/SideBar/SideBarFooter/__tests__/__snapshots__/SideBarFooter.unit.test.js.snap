@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBarFooter renders 1`] = `
+<Fragment>
+  <div
+    className="footer-block"
+  >
+    <div>
+      <br />
+      Adapted from 
+      <br />
+       © Productioncoder.com 
+      <br />
+      <br />
+      — A Youtube clone for 
+      <br />
+      educational purposes 
+      <br />
+      under fair use.
+    </div>
+  </div>
+</Fragment>
+`;

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NextUpVideo renders 1`] = `
+<Fragment>
+  <div
+    className="next-up-container"
+  >
+    <h4>
+      Related Videos
+    </h4>
+  </div>
+  <VideoPreview
+    horizontal={true}
+    pathname="/watch"
+    search="?v=some-id"
+    video={
+      Object {
+        "id": "some-id",
+      }
+    }
+  />
+  <Divider />
+</Fragment>
+`;

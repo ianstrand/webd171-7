@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SideBar renders 1`] = `
+<Menu
+  borderless={true}
+  className="side-nav"
+  fixed="left"
+  stackable={true}
+  vertical={true}
+>
+  <SideBarHeader />
+  <Divider />
+  <withRouter(SideBarItem)
+    icon="home"
+    label="Home"
+    path="/"
+  />
+  <withRouter(SideBarItem)
+    icon="fire"
+    label="Trending"
+    path="/feed/trending"
+  />
+  <Divider />
+  <SideBarFooter />
+</Menu>
+`;
