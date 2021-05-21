@@ -1,7 +1,8 @@
 {
-  "name": "youtube-react",
+  "name": "webd171assignment7",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ianstrand.github.io/webd171-7/",
   "dependencies": {
     "bootstrap": "^4.5.3",
     "fomantic-ui-css": "^2.8.7",
@@ -27,10 +28,10 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "dev": "source .env.local && npm start",
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
