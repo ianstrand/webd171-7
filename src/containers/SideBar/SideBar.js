@@ -11,8 +11,8 @@ export class SideBar extends React.Component {
       <Menu borderless vertical stackable fixed='left' className='side-nav'>
         <SideBarHeader/>
         <Divider/>
-        <SideBarItem path='/' label='Home' icon='home'/>
-        <SideBarItem path='/feed/trending' label='Trending' icon='fire'/>
+        <SideBarItem path='/webd171-7' label='Home' icon='home'/>
+        <SideBarItem path='/webd171-7/feed/trending' label='Trending' icon='fire'/>
         <Divider/>
         <SideBarFooter/>
       </Menu>

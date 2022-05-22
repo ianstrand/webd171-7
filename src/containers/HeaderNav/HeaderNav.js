@@ -17,7 +17,7 @@ export class HeaderNav extends React.Component {
       <Menu borderless className='top-menu' fixed='top'>
         {/* 2 */}
         <Menu.Item header className='logo'>
-          <Link to='/'><Image src={logo} size='small' alt='Video Search' /></Link>
+          <Link to='/webd171-7'><Image src={logo} size='small' alt='Video Search' /></Link>
         </Menu.Item>
         {/* 3 */}
         <Menu.Menu className='nav-container'>
@@ -34,7 +34,7 @@ export class HeaderNav extends React.Component {
               </Form.Field>
             </Form>
           </Menu.Item>
-          
+
         </Menu.Menu>
       </Menu>
     );

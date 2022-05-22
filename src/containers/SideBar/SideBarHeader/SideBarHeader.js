@@ -8,7 +8,7 @@ export function SideBarHeader(props) {
   return (
     <Menu.Item>
       <br />
- 	  <Link to='/'><Image src={require('../../../assets/images/Icon5.png')} size='small' /></Link>
+ 	  <Link to='/webd171-7'><Image src={require('../../../assets/images/Icon5.png')} size='small' /></Link>
  	  <br />
       <Menu.Header className='side-bar-header'><br />{heading}</Menu.Header>
     </Menu.Item>
