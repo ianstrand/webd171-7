@@ -6,6 +6,7 @@ import './styles/fomantic-ui-css/semantic.css';
 import { Provider } from 'react-redux';
 import {BrowserRouter} from 'react-router-dom';
 import {configureStore} from './store/configureStore';
+require('dotenv').config();
 
 const store = configureStore();
 
