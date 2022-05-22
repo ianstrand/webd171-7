@@ -19,7 +19,7 @@ class App extends Component {
           <Route path="/webd171-7/feed/trending" component={Trending}/>
           <Route path="/webd171-7/results" render={() => <Search key={this.props.location.key}/>}/>
           <Route path="/webd171-7/watch" render={() => <Watch key={this.props.location.key}/>}/>
-          <Route path="/webd171-7/" component={Home}/>
+          <Route path="/webd171-7" component={Home}/>
         </Switch>
       </AppLayout>
     );
