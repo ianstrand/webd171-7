@@ -24,7 +24,7 @@ class Search extends React.Component {
   componentDidMount() {
     if (!this.getSearchQuery()) {
       // redirect to home component if search query is not there
-      this.props.history.push('/');
+      this.props.history.push('/webd171-7');
     }
     this.searchForVideos();
   }

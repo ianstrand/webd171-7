@@ -9,7 +9,7 @@ export function NextUpVideo(props) {
       <div className='next-up-container'>
         <h4>Related Videos</h4>
       </div>
-      <VideoPreview horizontal={true} video={props.video} pathname='/watch' search={`?v=${props.video.id}`}/>
+      <VideoPreview horizontal={true} video={props.video} pathname='/webd171-7/watch' search={`?v=${props.video.id}`}/>
       <Divider/>
     </React.Fragment>
   );

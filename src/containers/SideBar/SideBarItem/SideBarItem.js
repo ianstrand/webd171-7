@@ -22,7 +22,7 @@ export class SideBarItem extends React.Component {
 
   shouldBeHighlighted() {
     const {pathname} = this.props.location;
-    if (this.props.path === '/') {
+    if (this.props.path === '/webd171-7') {
       return pathname === this.props.path;
     }
     return pathname.includes(this.props.path);

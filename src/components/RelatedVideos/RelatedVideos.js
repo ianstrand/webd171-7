@@ -15,7 +15,7 @@ export function RelatedVideos(props) {
   const relatedVideosPreviews = remainingVideos.map(relatedVideo => (
       <VideoPreview video={relatedVideo}
                     key={relatedVideo.id}
-                    pathname='/watch'
+                    pathname='/webd171-7/watch'
                     search={`?v=${relatedVideo.id}`}
                     horizontal={true}/>
   ));
